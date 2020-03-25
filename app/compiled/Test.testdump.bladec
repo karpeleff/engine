@@ -1,0 +1,4 @@
+<?php  echo $this->dump($records);?>
+
+<hr>
+<?php  echo $this->dump($records,true);?>
