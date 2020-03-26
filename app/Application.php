@@ -25,6 +25,9 @@ class Application
     public  function  main ($data)
     {
 
+       // $this->dump($data);
+        //exit;
+
        $controller = 'App\\'.$data[1];
         //$controller = 'StoreController';
         $route = new  $controller();

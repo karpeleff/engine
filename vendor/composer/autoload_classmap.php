@@ -7,7 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'App\\Application' => $baseDir . '/app/Application.php',
+    'App\\DocsController' => $baseDir . '/app/DocsController.php',
+    'App\\Models\\Benzin' => $baseDir . '/app/models/Benzin.php',
+    'App\\Models\\Dizelwork' => $baseDir . '/app/models/Dizelwork.php',
     'App\\Models\\User' => $baseDir . '/app/models/User.php',
+    'App\\OprsController' => $baseDir . '/app/OprsController.php',
     'App\\StoreController' => $baseDir . '/app/StoreController.php',
     'App\\View' => $baseDir . '/app/View.php',
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',

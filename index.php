@@ -8,7 +8,7 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->addRoute('POST', '/store/{method}', 'StoreController');
     $r->addRoute('GET', '/oprs/{method}', 'OprsController');
     $r->addRoute('POST', '/oprs/{method}', 'OprsController');
-
+    $r->addRoute('GET', '/docs/{method}', 'DocsController');
     $r->addRoute('GET', '/test/{id:\d+}', 'test');
     // {id} must be a number (\d+)
     $r->addRoute('GET', '/user/{id:\d+}', 'get_user_handler');

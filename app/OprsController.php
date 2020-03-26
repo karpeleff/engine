@@ -14,24 +14,24 @@ use App\Application;
 
 class OprsController
 {
-	public function  index()
+    public function  index()
     {
-       
+
         View::render('oprs.index');
-     
+
     }
 
-  public function migration()
-  {
+    public function migration()
+    {
 
-require_once 'models/Connection.php';
+        require_once 'models/Connection.php';
 
-require_once 'migrations/benzin.php';
+        require_once 'migrations/benzin.php';
 
-  }
+    }
 
-public function  addbenz()
-{
+    public function  addbenz()
+    {
 
 
 //Application::dump($_POST);
@@ -39,27 +39,27 @@ public function  addbenz()
 //exit;
 
 
-require_once 'models/Connection.php';
+        require_once 'models/Connection.php';
 
-Benzin::Create(['date' => $_POST['date'],
+        Benzin::Create(['date' => $_POST['date'],
                 'admission' => '33',
                 'consumtion' => '33',
                 'type' => $_POST['type'],
                 'balance' => '75']
-               );
+        );
 
 
 
 
-$this->benzform();
+        $this->benzform();
 
-}
+    }
 
 
-public   function  benzform()
-{
+    public   function  benzform()
+    {
 
-    View::render('oprs.benzac');
-}
-	
+        View::render('oprs.benzac');
+    }
+
 }
