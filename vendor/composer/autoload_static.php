@@ -241,6 +241,7 @@ class ComposerStaticInit2e323cf40533787886b16769c9f0f827
         'App\\Models\\Benzin' => __DIR__ . '/../..' . '/app/models/Benzin.php',
         'App\\Models\\Dizelwork' => __DIR__ . '/../..' . '/app/models/Dizelwork.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/models/User.php',
+        'App\\MyReadFilter' => __DIR__ . '/../..' . '/app/DocsController.php',
         'App\\OprsController' => __DIR__ . '/../..' . '/app/OprsController.php',
         'App\\StoreController' => __DIR__ . '/../..' . '/app/StoreController.php',
         'App\\View' => __DIR__ . '/../..' . '/app/View.php',

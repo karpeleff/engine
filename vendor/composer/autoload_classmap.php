@@ -11,6 +11,7 @@ return array(
     'App\\Models\\Benzin' => $baseDir . '/app/models/Benzin.php',
     'App\\Models\\Dizelwork' => $baseDir . '/app/models/Dizelwork.php',
     'App\\Models\\User' => $baseDir . '/app/models/User.php',
+    'App\\MyReadFilter' => $baseDir . '/app/DocsController.php',
     'App\\OprsController' => $baseDir . '/app/OprsController.php',
     'App\\StoreController' => $baseDir . '/app/StoreController.php',
     'App\\View' => $baseDir . '/app/View.php',

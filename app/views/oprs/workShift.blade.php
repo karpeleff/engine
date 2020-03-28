@@ -106,16 +106,11 @@
             <ul class="list-group mb-3">
                 <li class="list-group-item d-flex justify-content-between lh-condensed">
                     <div>
-                        <h6 class="my-0">Текущая смена</h6>
+
                         <input type="text" class="form-control" id="start" placeholder="" name="start" value="" required>
-                        <div class="invalid-feedback">
-                            Valid first name is required.
-                        </div>
-                    </div>
                     </div>
                     <span class="text-muted">$12</span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                </li>                 <li class="list-group-item d-flex justify-content-between lh-condensed">
                     <div>
                         <h6 class="my-0">Second product</h6>
                         <small class="text-muted">Brief description</small>
@@ -153,48 +148,15 @@
         </div>
         <div class="col-md-8 order-md-1">
             <hr class="mb-4">
-            <h4 class="mb-3">Запуск</h4>
+
             <form class="needs-validation" method="post" action="/store/add" novalidate>
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label for="firstName">Время запуска</label>
-                        <input type="text" class="form-control" id="start" placeholder="" name="start" value="" required>
-                        <div class="invalid-feedback">
-                            Valid first name is required.
-                        </div>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="lastName">Время останова</label>
-                        <input type="text" class="form-control" id="stop" placeholder="" name="stop" value="" required>
-                        <div class="invalid-feedback">
-                            Valid last name is required.
-                        </div>
-                    </div>
-                </div>
+
 
                 <hr class="mb-4">
                 <div class="row">
-          <div class="col-md-6 mb-3">
-            <label for="country">Выбрать ДГУ</label>
-            <select name="dizname" class="custom-select d-block w-100" id="country" required>
-              <option value="adr">ADR16.5</option>
-              <option value="sd">SD6000</option>
-            </select>
-            <div class="invalid-feedback">
-              Please select a valid country.
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="state">Причина запуска</label>
-            <select  name="zapusk" class="custom-select d-block w-100" id="state" required>
-              <option value="promset">Отключение промсети</option>
-              <option value="to">Техобслуживание</option>
-            </select>
-            <div class="invalid-feedback">
-              Please provide a valid state.
-            </div>
-          </div>
-         
+
+
+
         </div>
   <hr class="mb-4">
                 <button class="btn btn-primary btn-lg btn-block" type="submit">Записать в журнал</button>
@@ -219,12 +181,7 @@
         minuteIncrement:1,
         defaultDate: new Date()
     })
-    var fp = flatpickr("#stop", {
-        enableTime: true,
-        dateFormat: "Y-m-d H:i",
-        minuteIncrement:1,
-        defaultDate: new Date()
-    })
+
 
 
 </script>

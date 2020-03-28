@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88009a2c-2c21-4b48-a06a-18964cb18261" name="Default Changelist" comment="add docscontroller">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/DocsController.php" afterDir="false" />
+    <list default="true" id="88009a2c-2c21-4b48-a06a-18964cb18261" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/oprs/workShift.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/OprsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OprsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DocsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DocsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/oprs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/oprs/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
@@ -70,11 +67,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/oprs" />
     <property name="rest.client.default.execution.environment" value="test" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\engine\app\views\oprs" />
       <recent name="C:\OSPanel\domains\engine\app" />
       <recent name="C:\OSPanel\domains\engine\models" />
     </key>
@@ -195,8 +193,16 @@
       <option name="presentableId" value="Default" />
       <updated>1584591933466</updated>
       <workItem from="1584591935438" duration="47870000" />
-      <workItem from="1585202473322" duration="4975000" />
+      <workItem from="1585202473322" duration="30034000" />
     </task>
+    <task id="LOCAL-00001" summary="add docscontroller">
+      <created>1585256702361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585256702361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,34 +217,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="69" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1584592013357" />
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1585306608123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1585306608123" />
     <state x="507" y="102" key="#index.php" timestamp="1584592044951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="507" y="102" key="#index.php/0.0.1536.824@0.0.1536.824" timestamp="1584592044951" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585256542450">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1585256696525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585256542450" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585256696525" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1584599471392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584599471392" />
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom" timestamp="1585203777531">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585311333322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585203777531" />
-    <state width="1478" height="208" key="GridCell.Tab.0.center" timestamp="1585203777530">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585311333322" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585311333322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585203777530" />
-    <state width="1478" height="208" key="GridCell.Tab.0.left" timestamp="1585203777529">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585311333322" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585311333321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585203777529" />
-    <state width="1478" height="208" key="GridCell.Tab.0.right" timestamp="1585203777530">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585311333321" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585311333322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585203777530" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585311333322" />
     <state x="604" y="337" key="NewPhpFileDialog" timestamp="1584706877054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -247,10 +257,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1585256480268" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585202506366">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1585363223463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585202506366" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585363223463" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585273797179">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585273797179" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584706530318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
