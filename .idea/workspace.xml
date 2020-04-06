@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88009a2c-2c21-4b48-a06a-18964cb18261" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/oprs/workShift.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/DocsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DocsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/oprs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/oprs/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZKdtOVuyOLd8RCkHIImGY1yf19" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">

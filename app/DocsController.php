@@ -4,6 +4,7 @@ namespace  App;
 
 //use Illuminate\Database\Capsule\Manager as Capsule;
 
+use DateTime;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 //use Phpoffice\Phpspreadsheet\Reader\IReadFilter;
@@ -110,18 +111,42 @@ echo '<br>';
 
 }
 
-public  function  testCarbon()
-{
-    printf("Now: %s", Carbon::now());
 
-}
 
 public  function  workShiftview()
 {
     View::render('oprs.workShift');
 }
+    public  function getTuesday($year,$month): array
+    {
+        $instans = new DateTime();
 
+        $instans->setDate($year,$month, 1);
 
+        $lastDay  = $instans->format('t');
 
+        $tuesday = [];
+
+        for($i = 1; $i <= $lastDay;$i++ )
+        {
+            $instans->setDate($year,$month,$i);
+
+            if($instans->format('N') == 2){
+                $tuesday[] = $i;
+            }
+
+        }
+
+        return  $tuesday;
+
+    }
+
+public function  getDate()
+{
+   $out =  $this->getTuesday(2020,11);
+
+   var_dump($out);
+
+}
 
 }
